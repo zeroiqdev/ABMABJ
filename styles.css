@@ -86,11 +86,12 @@ body {
 .header {
   padding-block: 5rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("assets/abmheader.jpg");
+    url("assets/abmhead.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 100vh;
+  max-width: auto;
 }
 
 nav {
